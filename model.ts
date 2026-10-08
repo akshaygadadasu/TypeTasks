@@ -12,7 +12,7 @@ interface Task {
 
 // 3. addTask operation
 function addTask(tasks: Task[], title: string): Task[] {
-  const newTask: Task = { id: nextId++, title, status: "todo" };
+  const newTask: Task = { id: nextId++, title, status: "todos" };
   return [...tasks, newTask];
 }
 
